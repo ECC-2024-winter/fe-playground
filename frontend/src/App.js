@@ -5,11 +5,11 @@ function App() {
   const teams = [
     {
       name: "1팀❤️",
-      members: ["나는 연0", "나는 소0", "나는 수0", "나는 채0"],
+      members: ["연0", "소0", "수0", "채0"],
     },
-    { name: "2팀💛", members: ["나는 정민", "나는 소0", "나는 준0"] },
-    { name: "3팀💚", members: ["나는 서0", "나는 다0"] },
-    { name: "4팀💖", members: ["나는 현0", "나는 아0"] },
+    { name: "2팀💛", members: ["정민", "소0", "준0"] },
+    { name: "3팀💚", members: ["서0", "다0"] },
+    { name: "4팀💖", members: ["현0", "아0"] },
   ];
 
   return (
@@ -22,7 +22,7 @@ function App() {
             <ul key={index}>
               {team.name}
               {team.members.map((member, memberIndex) => (
-                <li key={memberIndex}>{member}</li>
+                <li key={memberIndex}>나는 {member}</li>
               ))}
             </ul>
           ))}
