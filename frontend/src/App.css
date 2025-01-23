@@ -24,6 +24,13 @@
   color: white;
 }
 
+.App-header > div {
+  display: flex;
+  flex-direction: row;
+  column-gap: 40px;
+  font-size: 25px;
+}
+
 .App-link {
   color: #61dafb;
 }
